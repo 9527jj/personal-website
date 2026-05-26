@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>个人主页 | Alex Jiang</title>
+    <meta
+      name="description"
+      content="一个简洁、温暖、适合作为个人介绍和作品展示的单页网站。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="回到顶部">
+        <span class="brand-mark">AJ</span>
+        <span>Alex Jiang</span>
+      </a>
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="#about">关于</a>
+        <a href="#work">作品</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent creator / Product thinker</p>
+          <h1>把复杂想法变成清晰、可使用的作品。</h1>
+          <p class="hero-text">
+            你好，我是 Alex。这里可以放你的个人介绍：你正在做什么、擅长什么，
+            以及你希望别人第一眼记住你的那句话。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button primary" href="#work">查看作品</a>
+            <a class="button secondary" href="mailto:hello@example.com">发送邮件</a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img
+            src="assets/portrait-card.png"
+            alt="抽象个人主页视觉图，包含人物头像和柔和色块"
+          />
+        </figure>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>专注于把方向感、审美和执行力放进同一个页面。</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            我喜欢连接人、产品和故事。过去的项目横跨内容创作、工具设计和数字体验，
+            也一直在寻找更自然的方式，让技术服务于真实的工作和生活。
+          </p>
+          <div class="quick-facts" aria-label="个人亮点">
+            <span>产品设计</span>
+            <span>前端开发</span>
+            <span>内容策略</span>
+            <span>AI 工作流</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>近期作品</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-kicker">01 / Web App</p>
+            <h3>习惯追踪仪表盘</h3>
+            <p>
+              一个帮助个人记录习惯、观察趋势并复盘生活节奏的小工具，强调低负担输入和清晰反馈。
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">02 / Writing</p>
+            <h3>长期主义笔记</h3>
+            <p>
+              一组关于学习、创造力和个人系统的文章，把松散经验整理成可复用的方法。
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">03 / Research</p>
+            <h3>AI 工作流实验</h3>
+            <p>
+              探索如何把 AI 嵌入日常工作，从提示词、自动化到协作界面，提升思考和产出速度。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>有项目、想法或合作机会，可以从这里开始。</h2>
+        </div>
+        <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+      </section>
+    </main>
+  </body>
+</html>
